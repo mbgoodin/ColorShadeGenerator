@@ -1,0 +1,32 @@
+{
+  "name": "Staples Brand Theme",
+  "dataColors": ["#751C59", "#DDDDDD", "#F47F20", "#FDB813", "#96C93F", "#1583C1", "#163D6E",
+  "#CC0000"],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": "Arial",
+        "background": "transparent",
+        "color": "#CC0000"
+      }
+    },
+    "background": {
+      "fill": "transparent"
+    },
+    "foreground": {
+      "color": "#CC0000"
+    },
+    "tableAccent": {
+      "color": "#4D4D4F"
+    },
+    "visualStyles": {
+      "visual": {
+        "foreground": "#CC0000",
+        "background": "transparent"
+      }
+    },
+    "dataColors": {
+      "*": ["#CC0000","#4D4D4F", "#969697", "#DDDDDD", "#F47F20", "#FDB813", "#96C93F", "#1583C1", "#163D6E"]
+    }
+  }
+}

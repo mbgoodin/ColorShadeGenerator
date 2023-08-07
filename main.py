@@ -105,6 +105,8 @@ def create_darken_df(colorList):
 
 ###############start of work###################
 
+# colorList is the list of hex codes that will be used to generate the report
+
 colorList = ['CC0000', #red
              '000000', #black
              '4d4d4f', #dark gray
@@ -119,8 +121,8 @@ colorList = ['CC0000', #red
              '751c59' # ada compliant purple
              ]
 
-lighten_df = create_lighten_df(colorList)
-darken_df = create_darken_df(colorList)
+lighten_df = create_lighten_df(colorList) #create a dataframe of lightened colors
+darken_df = create_darken_df(colorList) # create a dataframe of darkened colors
 
 
 with pd.ExcelWriter("ColorShadeReferenceWorkbook.xlsx", engine="openpyxl") as writer:
